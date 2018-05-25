@@ -1,4 +1,4 @@
-<BS>"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " ~/.vimrc                                                      "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "                                                               "
@@ -7,6 +7,8 @@
 "                                                               "
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
  
+set colorcolumn=80
+
 " Hightlight the ifs and buts
 syntax on
  
@@ -51,8 +53,8 @@ set complete+=kspell
  
 " disable tabs
 set expandtab
-set shiftwidth=4
-set softtabstop=4
+set shiftwidth=2
+set softtabstop=2
  
 " highlt matches
 set hlsearch
